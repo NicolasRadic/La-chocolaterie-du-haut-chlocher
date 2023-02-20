@@ -8,7 +8,7 @@ const TitlePage = ({ title }) => {
         <img
           src="./images/fond-title-contact.jpg"
           alt="fond title"
-          className="w-full h-[305px] absolute left-0 -top-20 object-cover"
+          className="w-full h-32 md:h-[305px] absolute left-0 md:-top-20 top-24 object-cover"
         />
         <h2 className="text-3xl md:text-5xl font-playball font-bold z-20 text-white">
           {title}
