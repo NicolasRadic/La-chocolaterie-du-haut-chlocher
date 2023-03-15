@@ -104,7 +104,7 @@ const AboutHistory = () => {
               </p>
             </div>
           </div>
-          <div className="pt-4 flex flex-col gap-4 lg:gap-8">
+          <div className="hidden pt-8 md:flex flex-col gap-4 lg:gap-8">
             <img
               src="./images/products/product-full-1.png"
               alt="première liste de produit"
@@ -113,6 +113,9 @@ const AboutHistory = () => {
               src="./images/products/product-full-2.png"
               alt="première liste de produit"
             />
+          </div>
+          <div className="md:hidden p-4 flex flex-col gap-4 lg:gap-8">
+            <img src="./images/products/product-1-1.png" alt="" />
           </div>
         </div>
       </div>
