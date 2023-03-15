@@ -2,26 +2,26 @@ import React from "react";
 
 const AboutHistory = () => {
   return (
-    <div className="pt-20 md:tracking-wider flex  justify-center">
+    <div className="pt-20 lg:tracking-wider flex  justify-center">
       <div className="max-w-screen-2xl">
-        <div className="pt-10 md:pt-20">
-          <div className="flex flex-col-reverse justify-center md:flex-row md:items-end">
-            <div className="md:w-1/2">
+        <div className="pt-10 lg:pt-20">
+          <div className="flex flex-col-reverse justify-center lg:flex-row lg:items-end">
+            <div className="lg:w-1/2">
               <img
                 src="./images/vincent-1.png"
                 alt="vicent"
-                className="w-full h-ful pt-10 md:pt-0 px-4 md:pl-40"
+                className="w-full h-ful pt-10 lg:pt-0 px-4 lg:pl-40"
               />
             </div>
-            <div className="md:w-1/2 md:pr-20 md:pl-10 flex flex-col gap-8 ">
-              <div className="flex flex-col items-center pb-8 pt-10 md:pt-0">
-                <h2 className="text-center  text-3xl md:text-5xl md:tracking-wider font-playball font-bold">
+            <div className="lg:w-1/2 lg:pr-20 lg:pl-10 flex flex-col gap-8 ">
+              <div className="flex flex-col items-center pb-8 pt-10 lg:pt-0">
+                <h2 className="text-center  text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
                   {" "}
                   L'histoire
                 </h2>
                 <img src="deco-title.png" alt="" className="pt-4" />
               </div>
-              <div className="px-8 pb-6 md:px-10  flex flex-col gap-4 md:text-xl">
+              <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-xl">
                 <p> Bonjour, moi c'est Vincent ! </p>
                 <p>Je vais vous expliquer mon parcours...</p>
                 <p>
@@ -43,16 +43,16 @@ const AboutHistory = () => {
             </div>
           </div>
         </div>
-        <div className="pt-20 md:pt-40 flex flex-col justify-center md:flex-row md:items-end">
-          <div className="md:w-1/2 md:pl-20 md:pr-10 flex flex-col gap-8 ">
-            <div className="flex flex-col items-center pb-8 pt-10 md:pt-0">
-              <h2 className="text-center  text-3xl md:text-5xl md:tracking-wider font-playball font-bold">
+        <div className="pt-20 lg:pt-40 flex flex-col justify-center lg:flex-row lg:items-end">
+          <div className="lg:w-1/2 lg:pl-20 lg:pr-10 flex flex-col gap-8 ">
+            <div className="flex flex-col items-center pb-8 pt-10 lg:pt-0">
+              <h2 className="text-center  text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
                 {" "}
                 La Chocolaterie
               </h2>
               <img src="deco-title.png" alt="" className="pt-4" />
             </div>
-            <div className="px-8 pb-6 md:px-10  flex flex-col gap-4 md:text-xl">
+            <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-xl">
               <p>
                 La Chocolaterie du Haut Clocher a ouvert ses portes pour la
                 première fois en 2011 dans le village de Voroux-Goreux
@@ -70,24 +70,24 @@ const AboutHistory = () => {
               </p>
             </div>
           </div>
-          <div className="md:w-1/2">
+          <div className="lg:w-1/2">
             <img
               src="./images/comptoir-1.jpg"
               alt="vicent"
-              className="w-full h-full pt-12 md:pt-0 px-4 md:pr-40"
+              className="w-full h-full pt-12 lg:pt-0 px-4 lg:pr-40"
             />
           </div>
         </div>
-        <div className="pt-20  md:pt-40 flex flex-col justify-center md:flex-row md:justify-center">
+        <div className="pt-20 pb-20 lg:pt-40 flex flex-col justify-center  lg:items-center">
           <div className="max-w-5xl">
-            <div className="flex flex-col items-center pb-8 pt-10 md:pt-0">
-              <h2 className="text-center  text-3xl md:text-5xl md:tracking-wider font-playball font-bold">
+            <div className="flex flex-col items-center pb-8 pt-10 lg:pt-0">
+              <h2 className="text-center  text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
                 {" "}
                 Les produits
               </h2>
               <img src="deco-title.png" alt="" className="pt-4" />
             </div>
-            <div className="px-8 pb-6 md:px-10  flex flex-col gap-4 md:text-xl">
+            <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-xl">
               <p>
                 Du beau et du bon ! Notre artisanat est important, c'est
                 pourquoi nous avons reçu le label "Artisanat Certifié" delivré
@@ -103,6 +103,16 @@ const AboutHistory = () => {
                 changeante, chaque saison à son lot de nouveautés.
               </p>
             </div>
+          </div>
+          <div className="pt-4 flex flex-col gap-4 lg:gap-8">
+            <img
+              src="./images/products/product-full-1.png"
+              alt="première liste de produit"
+            />
+            <img
+              src="./images/products/product-full-2.png"
+              alt="première liste de produit"
+            />
           </div>
         </div>
       </div>

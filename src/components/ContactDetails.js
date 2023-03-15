@@ -2,11 +2,11 @@ import React from "react";
 
 const ContactDetails = () => {
   return (
-    <div className="md:w-1/2 ">
+    <div className="lg:w-1/2 ">
       <div className="w-full flex flex-col justify-center items-center gap-10 py-20">
-        <div className="md:w-1/2 flex flex-col gap-2 items-center md:text-xl">
+        <div className="lg:w-1/2 flex flex-col gap-2 items-center lg:text-xl">
           <div className="flex flex-col items-center pb-8 pt-6">
-            <h2 className="text-center  text-2xl md:text-4xl md:tracking-wider font-playball font-bold">
+            <h2 className="text-center  text-2xl lg:text-4xl lg:tracking-wider font-playball font-bold">
               Information
             </h2>
             <img src="deco-title.png" alt="" className="pt-4" />
@@ -24,9 +24,9 @@ const ContactDetails = () => {
             <p>04 250 21 13</p>
           </div>
         </div>
-        <div className="md:w-1/2 flex flex-col gap-3 items-center md:text-xl text-center">
+        <div className="lg:w-1/2 flex flex-col gap-3 items-center lg:text-xl text-center">
           <div className="flex flex-col items-center pb-8 pt-6">
-            <h2 className="text-center  text-2xl md:text-4xl md:tracking-wider font-playball font-bold">
+            <h2 className="text-center  text-2xl lg:text-4xl lg:tracking-wider font-playball font-bold">
               Heures d'Ouverture
             </h2>
             <img src="deco-title.png" alt="" className="pt-4" />

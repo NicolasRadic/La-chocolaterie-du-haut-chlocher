@@ -2,9 +2,9 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="md:w-1/2 py-20">
+    <div className="lg:w-1/2 py-20">
       <div className="flex flex-col items-center pb-8 pt-6">
-        <h2 className="text-center  text-2xl md:text-4xl md:tracking-wider font-playball font-bold">
+        <h2 className="text-center  text-2xl lg:text-4xl lg:tracking-wider font-playball font-bold">
           Formulaire de contact
         </h2>
         <img src="deco-title.png" alt="" className="pt-4" />
