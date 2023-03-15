@@ -78,7 +78,7 @@ const AboutHistory = () => {
             />
           </div>
         </div>
-        <div className="pt-20 pb-20 lg:pt-40 flex flex-col justify-center  lg:items-center">
+        <div className="pt-20 pb-10 lg:pb-20 lg:pt-40 flex flex-col justify-center  lg:items-center">
           <div className="max-w-5xl">
             <div className="flex flex-col items-center pb-8 pt-10 lg:pt-0">
               <h2 className="text-center  text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
@@ -115,7 +115,26 @@ const AboutHistory = () => {
             />
           </div>
           <div className="md:hidden p-4 flex flex-col gap-4 lg:gap-8">
-            <img src="./images/products/product-1-1.png" alt="" />
+            <img
+              src="./images/products/product-1-1.png"
+              alt="chocolat classic"
+            />
+            <img src="./images/products/product-1-2.png" alt="dessert" />
+            <img
+              src="./images/products/product-1-3.png"
+              alt="pâtes à tartiner"
+            />
+            <img src="./images/products/product-1-4.png" alt="truffes" />
+            <img src="./images/products/product-2-1.png" alt="chocolat noit" />
+            <img
+              src="./images/products/product-2-2.png"
+              alt="chocolat noir deuxième partie"
+            />
+            <img
+              src="./images/products/product-2-3.png"
+              alt="chocolat au lait"
+            />
+            <img src="./images/products/product-2-4.png" alt="chocolat blanc" />
           </div>
         </div>
       </div>
