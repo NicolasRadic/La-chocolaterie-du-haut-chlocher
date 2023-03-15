@@ -1,13 +1,15 @@
 import React from "react";
+import AboutHistory from "../components/about/AboutHistory";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/header/Header";
-import InProgress from "../components/InProgress";
+// import TitlePage from "../components/TitlePage";
 
 const About = () => {
   return (
     <div>
       <Header />
-      <InProgress />
+      {/* <TitlePage title={"Qui sommes nous ?"} /> */}
+      <AboutHistory />
       <Footer />
     </div>
   );
