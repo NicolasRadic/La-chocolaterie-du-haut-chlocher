@@ -2,9 +2,9 @@ import React from "react";
 
 const AboutHistory = () => {
   return (
-    <div className="pt-20 lg:tracking-wider flex  justify-center">
+    <div className="pt-24 lg:tracking-wider flex  justify-center">
       <div className="max-w-screen-2xl">
-        <div className="pt-10 lg:pt-20">
+        <div className=" lg:pt-20">
           <div className="flex flex-col-reverse justify-center lg:flex-row lg:items-end">
             <div className="lg:w-1/2">
               <img
@@ -21,7 +21,7 @@ const AboutHistory = () => {
                 </h2>
                 <img src="deco-title.png" alt="" className="pt-4" />
               </div>
-              <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-xl">
+              <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 xl:text-xl">
                 <p> Bonjour, moi c'est Vincent ! </p>
                 <p>Je vais vous expliquer mon parcours...</p>
                 <p>
@@ -52,7 +52,7 @@ const AboutHistory = () => {
               </h2>
               <img src="deco-title.png" alt="" className="pt-4" />
             </div>
-            <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-xl">
+            <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 xl:text-xl">
               <p>
                 La Chocolaterie du Haut Clocher a ouvert ses portes pour la
                 première fois en 2011 dans le village de Voroux-Goreux
@@ -87,7 +87,7 @@ const AboutHistory = () => {
               </h2>
               <img src="deco-title.png" alt="" className="pt-4" />
             </div>
-            <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-xl">
+            <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 xl:text-xl">
               <p>
                 Du beau et du bon ! Notre artisanat est important, c'est
                 pourquoi nous avons reçu le label "Artisanat Certifié" delivré
