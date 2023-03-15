@@ -1,12 +1,18 @@
-import React from "react";
-import ContactDetails from "../components/ContactDetails";
-import ContactForm from "../components/ContactForm";
+import React, { useEffect } from "react";
+import ContactDetails from "../components/contact/ContactDetails";
+import ContactForm from "../components/contact/ContactForm";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/header/Header";
 import Map from "../components/Map";
 import TitlePage from "../components/TitlePage";
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "La Chocolaterie du Haut Clocher | Contact";
+  }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <Header />

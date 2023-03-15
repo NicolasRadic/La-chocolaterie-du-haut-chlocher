@@ -21,7 +21,7 @@ const AboutHistory = () => {
                 </h2>
                 <img src="deco-title.png" alt="" className="pt-4" />
               </div>
-              <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 xl:text-xl">
+              <div className="px-8  lg:px-10  flex flex-col gap-4 xl:text-xl">
                 <p> Bonjour, moi c'est Vincent ! </p>
                 <p>Je vais vous expliquer mon parcours...</p>
                 <p>
@@ -52,7 +52,7 @@ const AboutHistory = () => {
               </h2>
               <img src="deco-title.png" alt="" className="pt-4" />
             </div>
-            <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 xl:text-xl">
+            <div className="px-8  lg:px-10  flex flex-col gap-4 xl:text-xl">
               <p>
                 La Chocolaterie du Haut Clocher a ouvert ses portes pour la
                 première fois en 2011 dans le village de Voroux-Goreux

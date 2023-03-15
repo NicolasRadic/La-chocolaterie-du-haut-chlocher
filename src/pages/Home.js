@@ -10,6 +10,9 @@ const Home = () => {
   useEffect(() => {
     document.title = "La Chocolaterie du Haut Clocher | Accueil";
   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header />
