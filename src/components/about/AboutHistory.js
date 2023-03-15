@@ -119,7 +119,7 @@ const AboutHistory = () => {
               src="./images/products/product-1-1.png"
               alt="chocolat classic"
             />
-            <img src="./images/products/product-1-2.png" alt="dessert" />
+
             <img
               src="./images/products/product-1-3.png"
               alt="pâtes à tartiner"
