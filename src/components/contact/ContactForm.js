@@ -1,6 +1,31 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
+  const [sendState, setSendState] = useState(false);
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_lfi0iwn",
+        "template_2rthidn",
+        form.current,
+        "d5ShAEFEcthcqS_Uj"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+          setSendState(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="lg:w-1/2 py-20">
       <div className="flex flex-col items-center pb-8 pt-6">
@@ -10,7 +35,11 @@ const ContactForm = () => {
         <img src="deco-title.png" alt="" className="pt-4" />
       </div>
       <div>
-        <form className="flex flex-col items-center gap-4 ">
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="flex flex-col items-center gap-4 "
+        >
           <div className="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
             <div>
               <label
@@ -107,6 +136,14 @@ const ContactForm = () => {
             </div>
           </div>
         </form>
+        {sendState && (
+          <div>
+            {" "}
+            <p className=" text-center italic text-base text-zinc-600 pt-6">
+              Le message a bien été envoyé
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
