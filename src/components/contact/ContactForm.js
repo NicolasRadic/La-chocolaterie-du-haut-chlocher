@@ -3,6 +3,35 @@ import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [sendState, setSendState] = useState(false);
+  const [formComplete, setFormComplete] = useState(false);
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleFirstName = (e) => {
+    const getFirstName = e.target.value;
+    setFirstName(getFirstName);
+  };
+  const handleLastName = (e) => {
+    const getLastName = e.target.value;
+    setLastName(getLastName);
+  };
+  const handleEmail = (e) => {
+    const getEmail = e.target.value;
+    setEmail(getEmail);
+  };
+  const handleMessage = (e) => {
+    const getMessage = e.target.value;
+    setMessage(getMessage);
+  };
+  const SubmitButton = () => {
+    if (firstName && lastName && email && message) {
+      setFormComplete(true);
+    } else {
+      setFormComplete(false);
+    }
+  };
 
   const form = useRef();
   const sendEmail = (e) => {
@@ -20,6 +49,10 @@ const ContactForm = () => {
           console.log(result.text);
           e.target.reset();
           setSendState(true);
+          setFirstName("");
+          setLastName("");
+          setEmail("");
+          setMessage("");
         },
         (error) => {
           console.log(error.text);
@@ -55,6 +88,8 @@ const ContactForm = () => {
                   id="first-name"
                   autoComplete="given-name"
                   className="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 "
+                  value={firstName}
+                  onChange={(e) => handleFirstName(e)}
                 />
               </div>
             </div>
@@ -72,6 +107,8 @@ const ContactForm = () => {
                   id="last-name"
                   autoComplete="family-name"
                   className="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 "
+                  value={lastName}
+                  onChange={(e) => handleLastName(e)}
                 />
               </div>
             </div>
@@ -106,6 +143,8 @@ const ContactForm = () => {
                   id="email"
                   autoComplete="email"
                   className="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 "
+                  value={email}
+                  onChange={(e) => handleEmail(e)}
                 />
               </div>
             </div>
@@ -123,16 +162,21 @@ const ContactForm = () => {
                   rows={4}
                   className="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  "
                   defaultValue={""}
+                  value={message}
+                  onChange={(e) => handleMessage(e)}
                 />
               </div>
             </div>
             <div className="mt-10 sm:col-span-2">
-              <button
-                type="submit"
-                className="block w-full rounded-md bg-[rgb(197,157,95)] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[rgb(198,139,49)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[rgb(197,157,95)]"
-              >
-                Envoyer
-              </button>
+              <SubmitButton />
+              <div className={formComplete ? "block" : "hidden"}>
+                <button
+                  type="submit"
+                  className="block w-full rounded-md bg-[rgb(197,157,95)] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[rgb(198,139,49)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[rgb(197,157,95)]"
+                >
+                  Envoyer
+                </button>
+              </div>
             </div>
           </div>
         </form>
@@ -140,7 +184,7 @@ const ContactForm = () => {
           <div>
             {" "}
             <p className=" text-center italic text-base text-zinc-600 pt-6">
-              Le message a bien été envoyé
+              Le mail a bien été envoyé
             </p>
           </div>
         )}
