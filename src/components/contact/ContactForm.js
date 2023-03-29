@@ -200,8 +200,8 @@ const ContactForm = () => {
           <div>
             {" "}
             <p className=" text-center italic text-base text-zinc-600 pt-8">
-              Afin d'envoyer le mail toute les entrées dotés d'une * doivent
-              être remplie.
+              Afin d'envoyer le mail tous les champs dotés d'une * doivent être
+              remplis.
             </p>
           </div>
         )}

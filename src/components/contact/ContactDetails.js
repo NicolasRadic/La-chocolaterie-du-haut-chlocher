@@ -32,7 +32,7 @@ const ContactDetails = () => {
             <img src="deco-title.png" alt="" className="pt-4" />
           </div>
           <div>
-            <h3 className="font-semibold">Du Mercredi au Samedi</h3>
+            <h3 className="font-semibold">Du Mardi au Samedi</h3>
             <p>De 10 à 18h</p>
             <p className="italic text-base text-zinc-600 pt-6">
               *Ces horaires peuvent varier en fonction des fêtes, visitez notre
