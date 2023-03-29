@@ -199,7 +199,7 @@ const ContactForm = () => {
         ) : (
           <div>
             {" "}
-            <p className=" text-center italic text-base text-zinc-600 pt-8">
+            <p className=" text-center italic text-base text-zinc-600 pt-8 px-2">
               Afin d'envoyer le message tous les champs dotés d'une * doivent
               être remplis.
             </p>
