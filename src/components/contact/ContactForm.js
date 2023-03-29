@@ -169,22 +169,39 @@ const ContactForm = () => {
             </div>
             <div className="mt-10 sm:col-span-2">
               <SubmitButton />
-              <div className={formComplete ? "block" : "hidden"}>
+
+              {formComplete ? (
                 <button
                   type="submit"
                   className="block w-full rounded-md bg-[rgb(197,157,95)] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[rgb(198,139,49)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[rgb(197,157,95)]"
                 >
                   Envoyer
                 </button>
-              </div>
+              ) : (
+                <button
+                  type="submit"
+                  className="block w-full rounded-md bg-zinc-400 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[rgb(197,157,95)]"
+                  disabled
+                >
+                  Envoyer
+                </button>
+              )}
             </div>
           </div>
         </form>
-        {sendState && (
+        {sendState ? (
           <div>
             {" "}
-            <p className=" text-center italic text-base text-zinc-600 pt-6">
+            <p className=" text-center italic text-base text-zinc-600 pt-8">
               Le mail a bien été envoyé
+            </p>
+          </div>
+        ) : (
+          <div>
+            {" "}
+            <p className=" text-center italic text-base text-zinc-600 pt-8">
+              Afin d'envoyer le mail toute les entrées dotés d'une * doivent
+              être remplie.
             </p>
           </div>
         )}
