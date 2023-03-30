@@ -7,40 +7,40 @@ const B2BContent = () => {
         <div className="flex flex-col items-center pb-8 pt-10 lg:pt-0">
           <h2 className="text-center  text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
             {" "}
-            B2B
+            Cadeaux personnalisés
           </h2>
           <img src="deco-title.png" alt="" className="pt-4" />
         </div>
-        <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-xl">
-          <p>
-            Nous nous faisons un plaisir de vous accompagner dans vos cadeaux
-            d'entreprise ! Le maitre mot : la personnalisation ! Vous avez
-            toujours rêvé d'imprimer votre logo sur une praline ? Nous pouvons
-            le faire ! Nous sommes spécialisés dans la personnalisation de
-            chocolat, même pour des petites quantités, sous divers formats :
-            pralines fourrées, carte de visites, ... Suivant votre demande, nous
-            pouvons également personnaliser une étiquette, une boîte,... Il y en
-            a pour tout les budgets
-          </p>
+        <div className="px-8 pb-6 lg:px-10  flex flex-col gap-4 lg:text-lg">
           <div>
             <ul className="list-disc pl-8 space-y-1 > * + *">
               <li>
-                Rendez vos évènements inoubliables en offrant du chocolat
-                artisanal et de qualité à vos invités !
+                Rendez vos évènements inoubliables, mariage, baptême,
+                anniversaire, en offrant du chocolat artisanal et de qualité à
+                vos invités !
               </li>
               <li>
-                Offrez un cadeau gourmand et à l'image de votre entreprise pour
-                remercier vos collaborateurs, vos employés ou vos clients.
-              </li>
-              <li>
-                Mariage, baptème, anniversaire, festival, salon, toutes les
-                occasions sont bonnes !
+                Offrez un cadeau gourmand, à l'image de votre entreprise, pour
+                remercier vos collaborateurs ou vos clients.
               </li>
             </ul>
           </div>
           <p>
-            Contactez nous pour découvrir nos idées de cadeaux et laissez-vous
-            guider par nos chocolatiers pour tous vos évènements !
+            Vous avez toujours rêvé d'imprimer votre logo, une date souvenir, un
+            message sur une praline ? Nous pouvons le faire !
+          </p>
+          <p>
+            Nous sommes spécialisés dans la personnalisation de chocolat, quel
+            que soit la quantité et le format : pralines fourrées, cartes de
+            visite chocolatées, ... mais nous gérons également l’impression
+            d’étiquettes ou contenants.
+          </p>
+
+          <p>
+            Notre créativité est sans limite quand il s’agit de vous aider à
+            offrir un cadeau original et personnalisé !Notre créativité est sans
+            limite quand il s’agit de vous aider à offrir un cadeau original et
+            personnalisé !
           </p>
         </div>
         <div className="pt-10 flex flex-col gap-4 lg:flex-row">
