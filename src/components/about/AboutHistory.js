@@ -15,7 +15,7 @@ const AboutHistory = () => {
             </div>
             <div className="lg:w-1/2 lg:pr-20 lg:pl-10 flex flex-col gap-8 ">
               <div className="flex flex-col items-center pb-8 pt-10 lg:pt-0">
-                <h2 className="text-center  text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
+                <h2 className="text-center text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
                   {" "}
                   L'histoire
                 </h2>

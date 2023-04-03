@@ -38,9 +38,9 @@ const B2BContent = () => {
 
           <p>
             Notre créativité est sans limite quand il s’agit de vous aider à
-            offrir un cadeau original et personnalisé !Notre créativité est sans
-            limite quand il s’agit de vous aider à offrir un cadeau original et
-            personnalisé !
+            offrir un cadeau original et personnalisé ! Notre créativité est
+            sans limite quand il s’agit de vous aider à offrir un cadeau
+            original et personnalisé !
           </p>
         </div>
         <div className="pt-10 flex flex-col gap-4 lg:flex-row">

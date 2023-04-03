@@ -57,7 +57,7 @@ const NavBar = () => {
                 nav.isActive ? "text-[rgb(191,112,37)] p-1" : "p-1"
               }
             >
-              B2B
+              Cadeaux d'affaires
             </NavLink>
           </li>
           <li className=" text-center uppercase">
