@@ -13,7 +13,6 @@ Même si il s'agit seulement d'un site vitrine, et que React n'est pas vraiment 
 <br>
 <br>
 <br>
-<br>
 
 # La Chocolaterie du Haut Clocher
 
