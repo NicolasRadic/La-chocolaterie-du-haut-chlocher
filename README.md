@@ -1,7 +1,7 @@
 # La Chocolaterie du Haut Clocher
 
 Site réalisé pour un amis afin d'apprendre a faire entièrement un site de zéro et le mettre en ligne par moi-même.<br>
-Lien du site : La Chocolaterie du Haut Clocher[https://lachocolaterieduhautclocher.be/]
+Lien du site : [La Chocolaterie du Haut Clocher](https://lachocolaterieduhautclocher.be/)
 
 ## Tech
 
@@ -18,7 +18,7 @@ Même si il s'agit seulement d'un site vitrine, et que React n'est pas vraiment 
 # La Chocolaterie du Haut Clocher
 
 Web site made for a friend to learn how to make a site from scratch and put it online by myself.<br>
-Link of the web site : La Chocolaterie du Haut Clocher[https://lachocolaterieduhautclocher.be/]
+Link of the web site : [La Chocolaterie du Haut Clocher](https://lachocolaterieduhautclocher.be/)
 
 ## Tech
 
