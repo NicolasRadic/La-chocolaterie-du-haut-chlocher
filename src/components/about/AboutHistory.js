@@ -1,5 +1,4 @@
 import React from "react";
-// for test
 
 const AboutHistory = () => {
   return (
@@ -23,13 +22,13 @@ const AboutHistory = () => {
                 <img src="deco-title.png" alt="" className="pt-4" />
               </div>
               <div className="px-8  lg:pl-10 lg:pr-2 flex flex-col gap-4 lg:text-lg">
-                <p>Bonjour à vous, amateurs de chocolats,</p>
+                <p>Bonjour à vous, amateurs de chocolat,</p>
                 <p>
                   Je m’appelle Vincent Vanstraelen et voici mon parcours en
                   quelques lignes.
                 </p>
                 <p>
-                  A 18 ans, passionnée de chocolat, c’est tout naturellement que
+                  A 18 ans, passionné de chocolat, c’est tout naturellement que
                   je me suis tourné vers une formation en alternance de
                   Confiseur-Chocolatier. C’est à la Chocolaterie du Haut
                   Clocher, durant ma période de stage, que j’ai appris les
@@ -95,7 +94,7 @@ const AboutHistory = () => {
                 En poussant les portes, vous serez accueillis par un grand
                 comptoir présentant un assortiment varié mais vous pourrez aussi
                 profiter d’une vue imprenable sur nos ateliers de fabrication,
-                en pleine production car ...chez nous, il n’y pas secret ou
+                en pleine production car ...chez nous, il n’y pas de secret ou
                 presque!
               </p>
             </div>
@@ -132,7 +131,7 @@ const AboutHistory = () => {
                 bonheur et satisfaire vos papilles !
               </p>
               <p>
-                Fidèle à nos classiques, nous fabriquons également des pralines
+                Fidèles à nos classiques, nous fabriquons également des pralines
                 éphémères aux saveurs insolites et imaginons des créations
                 thématiques pour la Saint-Valentin, la Saint-Nicolas et Pâques.
               </p>

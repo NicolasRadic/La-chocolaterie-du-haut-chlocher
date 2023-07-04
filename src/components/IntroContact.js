@@ -12,9 +12,19 @@ const IntroContact = () => {
             </h2>
             <img src="deco-title.png" alt="" className="pt-4" />
           </div>
-          <div>
-            <h3 className="font-semibold">Du Mercredi au Samedi</h3>
-            <p>De 10 à 18h</p>
+          <div className="flex flex-col gap-4">
+            <div>
+              <h3 className="font-semibold">Du Mardi au Jeudi</h3>
+              <p>De 14h à 21h</p>
+            </div>
+            <div>
+              <h3 className="font-semibold">Le Vendredi et Samedi</h3>
+              <p>De 14h à 22h</p>
+            </div>
+            <div>
+              <h3 className="font-semibold">Le Dimanche</h3>
+              <p>De 14h à 21h</p>
+            </div>
           </div>
         </div>
 

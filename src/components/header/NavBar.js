@@ -10,19 +10,19 @@ const NavBar = () => {
 
   useEffect(() => {
     function handleWindowResize() {
-      window.innerWidth > 768 && closeMenu();
+      window.innerWidth > 1024 && closeMenu();
     }
     window.addEventListener("resize", handleWindowResize);
   });
 
   const LinksActive =
-    "absolute z-50 flex flex-col items-center gap-8 md:hidden right-0 w-full top-24 py-8 bg-stone-50 shadow";
-  const LinksInactive = "hidden md:flex md:items-center md:gap-8";
+    "absolute z-50 flex flex-col items-center gap-8 lg:hidden right-0 w-full top-24 py-8 bg-stone-50 shadow";
+  const LinksInactive = "hidden lg:flex lg:items-center lg:gap-8";
 
   return (
     <div className="navbar">
       <nav>
-        <div className="md:hidden" onClick={changeMenuState}>
+        <div className="lg:hidden" onClick={changeMenuState}>
           {menuState ? (
             <XMarkIcon className="w-12" />
           ) : (
@@ -57,7 +57,17 @@ const NavBar = () => {
                 nav.isActive ? "text-[rgb(191,112,37)] p-1" : "p-1"
               }
             >
-              Cadeaux d'affaires
+              Cadeaux personnalisés
+            </NavLink>
+          </li>
+          <li className=" text-center uppercase">
+            <NavLink
+              to="/ice"
+              className={(nav) =>
+                nav.isActive ? "text-[rgb(191,112,37)] p-1" : "p-1"
+              }
+            >
+              Glaces
             </NavLink>
           </li>
           <li className=" text-center uppercase">
