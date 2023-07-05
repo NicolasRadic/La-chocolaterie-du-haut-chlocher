@@ -12,7 +12,7 @@ const Ice = () => {
         className="flex justify-center
       py-24"
       >
-        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-center max-w-screen-2xl ">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-center max-w-screen-2xl lg:max-h-[80vh]">
           <IceText />
           <IceTaste />
         </div>
