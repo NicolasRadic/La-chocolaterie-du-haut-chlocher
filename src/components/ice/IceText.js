@@ -2,10 +2,13 @@ import React from "react";
 
 const IceText = () => {
   return (
-    <div className="flex flex-col p-2 pt-20 lg:w-1/2 lg:full justify-center items-center">
+    <div className="flex flex-col p-2 pt-10 lg:pt-20 lg:w-1/2 lg:full justify-center items-center">
       <div className="flex flex-col gap-6 px-8 py-4 lg:px-10 lg:text-lg">
-        <div className="text-center pb-8 text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
-          <h2>Nos Glaces</h2>
+        <div className="flex flex-col items-center pb-8">
+          <h2 className="text-center text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
+            Nos Glaces
+          </h2>
+          <img src="deco-title.png" alt="" className="pt-4" />
         </div>
         <p>Vous aimez nos chocolats ? Vous succomberez à nos glaces !</p>
         <div>
