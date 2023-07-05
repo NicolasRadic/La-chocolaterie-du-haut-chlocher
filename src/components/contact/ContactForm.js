@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
@@ -25,6 +25,9 @@ const ContactForm = () => {
     const getMessage = e.target.value;
     setMessage(getMessage);
   };
+
+  // Submit Button
+
   const SubmitButton = () => {
     if (firstName && lastName && email && message) {
       setFormComplete(true);
@@ -32,6 +35,12 @@ const ContactForm = () => {
       setFormComplete(false);
     }
   };
+
+  useEffect(() => {
+    SubmitButton();
+  });
+
+  // sending hendler
 
   const form = useRef();
   const sendEmail = (e) => {
@@ -59,6 +68,7 @@ const ContactForm = () => {
         }
       );
   };
+
   return (
     <div className="lg:w-1/2 py-20">
       <div className="flex flex-col items-center pb-8 pt-6">
@@ -161,15 +171,12 @@ const ContactForm = () => {
                   id="message"
                   rows={4}
                   className="block w-full rounded-md border-0 py-2 px-3.5 text-sm leading-6 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400  "
-                  defaultValue={""}
                   value={message}
                   onChange={(e) => handleMessage(e)}
                 />
               </div>
             </div>
             <div className="mt-10 sm:col-span-2">
-              <SubmitButton />
-
               {formComplete ? (
                 <button
                   type="submit"
