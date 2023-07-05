@@ -42,5 +42,8 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "overrides": {
+    "semver": "^7.5.3"
   }
 }
