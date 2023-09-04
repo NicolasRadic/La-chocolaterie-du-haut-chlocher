@@ -36,7 +36,7 @@ const IceText = () => {
             demi-litres.
           </a>
         </p>
-        <div className="pt-10 flex flex-col w-full justify-center gap-4  sm:flex-row">
+        <div className="pt-10 flex flex-col w-full justify-between  sm:flex-row">
           <img
             src="./images/ice/gateau_glace-1.jpg"
             alt="chocolat équipe auto pneu"
