@@ -2,8 +2,8 @@ import React from "react";
 
 const IceText = () => {
   return (
-    <div className="flex flex-col p-2 pt-10 lg:pt-20 lg:w-1/2 lg:full justify-center items-center">
-      <div className="flex flex-col gap-6 px-8 py-4 lg:px-10 lg:text-lg">
+    <div className="flex flex-col pt-10 lg:pt-20 w-full  justify-center items-center">
+      <div className="flex flex-col w-full gap-6 px-8  lg:px-10 lg:text-lg">
         <div className="flex flex-col items-center pb-8">
           <h2 className="text-center text-3xl lg:text-5xl lg:tracking-wider font-playball font-bold">
             Nos Glaces
@@ -18,7 +18,11 @@ const IceText = () => {
           </p>
           <p>
             Des ingrédients méticuleusement sélectionnés; noisettes du Piémont,
-            citrons de Syracuse.
+            cityorn de syracus, clémentine de Corse, vanille de Madagascar, ...
+          </p>
+          <p>
+            Très prochainement, retrouvez également nos bûches de Noël glacées.
+            Toutes les informations très bientôt sur notre page Facebook !
           </p>
         </div>
         <p>
@@ -32,6 +36,23 @@ const IceText = () => {
             demi-litres.
           </a>
         </p>
+        <div className="pt-10 flex flex-col w-full justify-center gap-4  sm:flex-row">
+          <img
+            src="./images/ice/gateau_glace-1.jpg"
+            alt="chocolat équipe auto pneu"
+            className="px-8  sm:px-0 sm:w-1/4 object-cover "
+          />
+          <img
+            src="./images/ice/gateau_glace-2.jpg"
+            alt="chocolat évènnement"
+            className="px-8 sm:px-0 sm:w-1/4 object-cover"
+          />
+          <img
+            src="./images/ice/glace.jpg"
+            alt="chocolat de multiple entreprises"
+            className="px-8  sm:px-0 sm:w-1/4 object-cover"
+          />
+        </div>
       </div>
     </div>
   );

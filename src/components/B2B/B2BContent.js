@@ -41,7 +41,7 @@ const B2BContent = () => {
             offrir un cadeau original et personnalisé !
           </p>
         </div>
-        <div className="pt-10 flex flex-col gap-4 lg:flex-row">
+        <div className="pt-10 lg:px-10 flex flex-col gap-4 lg:flex-row">
           <img
             src="./images/b2b/b2b-1.jpg"
             alt="chocolat équipe auto pneu"
