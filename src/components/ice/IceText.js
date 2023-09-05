@@ -40,7 +40,7 @@ const IceText = () => {
           <img
             src="./images/ice/gateau_glace-1.jpg"
             alt="chocolat équipe auto pneu"
-            className="px-8  sm:px-0 sm:w-1/4 object-cover "
+            className="px-8 sm:px-0 sm:w-1/4 object-cover "
           />
           <img
             src="./images/ice/gateau_glace-2.jpg"
